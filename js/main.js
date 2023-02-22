@@ -6,8 +6,8 @@ const myColor = prompt("Dimmi il tuo colore preferito");
 
 const annoCorrente = 23;
 
-const myPassowrd = myName + mySurname + myColor + annoCorrente;
+const myPassword = myName + mySurname + myColor + annoCorrente;
 
-document.getElementById('password').innerHTML = 'La tua Password è: ' + myName + mySurname + myColor + annoCorrente;
+document.getElementById('password').innerHTML = 'La tua Password è: ' + myPassword;
 
-//document.getElementById('password').innerHTML = `La tua Password è: ${myName}${mySurname}${myColor}${annoCorrente}`; altro modo per lo stesso risultato
+//document.getElementById('password').innerHTML = `La tua Password è: ${myPassword}`; altro modo per lo stesso risultato
